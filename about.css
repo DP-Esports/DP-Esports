@@ -1,0 +1,88 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    font-family: consolas;
+}
+
+.con{
+
+    
+    max-width: 1100px;
+}
+
+.content .about span{
+
+    display: inline-block;
+    position: relative;
+    opacity: 0;
+    transition: 2s;
+    font-size: em;
+    
+
+}
+
+.content p span{
+
+    display: inline-block;
+    position: relative;
+    opacity: 0;
+    transition: 2s;
+    font-size:em;
+    
+
+}
+
+p{
+
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+text-shadow: 0 0 8px rgb(255 255 255 / 30%);
+font-family: Courier, monospace;
+-webkit-font-smoothing: antialiased;
+margin: 0.8
+em
+0;
+font-size: 18px;
+color: #81f2e9;
+}
+
+.demo{
+
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-shadow: 0 0 8px rgb(255 255 255 / 30%);
+    font-family: Courier, monospace;
+    -webkit-font-smoothing: antialiased;
+    margin: 0.8
+em
+ 0;
+    font-size: 25px;
+    color: #81f2e9;
+}
+
+.a{
+
+    background-color: #81f2e9;
+    font-family: consolas;
+}
+
+.home{
+    position: relative;
+    text-decoration: none;
+    font-family: Courier, monospace; 
+    color: #504f4f;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0;
+}
+

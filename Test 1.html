@@ -1,0 +1,51 @@
+<html>
+
+<link rel="stylesheet" href="Test 1.css">
+<head>
+
+
+<title>Test</title>
+
+</head>
+
+<body>
+
+    
+          <div class="Slide">
+            <img src="Chamber.png" style="width:50%">
+          </div>
+          <div class="Slide">
+            <img src="viper.jpg" style="width:100%"> 
+          </div>
+          <div class="Slide">
+            <img src="jett.jpg" style="width:100%">
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+        <!--giving function to image slider-->
+        <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("Slide");
+            if(n > slides.length) {
+              slideIndex = 1
+            }
+            if(n < 1) {
+              slideIndex = slides.length
+            }
+            for(i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+          }
+        </script>
+
+</body>
+
+</html>

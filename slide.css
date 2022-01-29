@@ -1,0 +1,77 @@
+.Slide{
+    display: flex;
+    
+    
+  }
+  img {
+    vertical-align: middle;
+  }
+
+  .slideshow-container{
+    position: relative;
+    margin: auto;
+  }
+
+  .prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px o;
+    user-select: none;
+  }
+
+  .next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover,
+  .next:hover{
+    background-color: rgba(0,0,0,0.0);
+  }
+
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba();
+    width: 50%;
+    color: #fff;
+    padding: 20px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+  }
+ 
+  .Ring{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    background: rgba();
+    width: 50%;
+    color: #000;
+    font-size: 4em;
+    padding: 10px;
+    color: #81f2e9;
+    font-family: consolas;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .Ring:nth-child(1)::before{
+
+    color: black;
+  }
+
